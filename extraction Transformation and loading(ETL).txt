@@ -1,0 +1,14 @@
+1. open notepad,enter &entries & and save file with name teacher.csv
+2. open sql server management studio, give server name & then click on connect.Expand database options & right click on your databases.table->selectnew table->add column & save it by pressing x ->yes->give table name
+3. open sql server data tools for visual studio
+File->new->project->buisness Intelligenece->Integrated service project->ok
+afte successful project creation drag and drop data flow from task from toolbox
+4. From other sources -> Drag and drop flat file source.
+From other destination->Ado.net Destination,
+From common->Derived column
+5. Doouble click on flat file source ->New->browse->select Your file->open->selectColumns->ok->preview->close->ok
+6. Double click on Ado.net Destination -> connection manager -> New -> delete existion one -> new->put server name->select Database->TEST connection->ok->ok->ok
+7. below connection manger ->select table->info mapping double click on device columns -> expand columns
+8.Drag & drop teacher Name on derived column name, drag &drop string function on expression->change name->ok
+then click on (^triangle)start
+Teacher info ->right click Top 1000Rows

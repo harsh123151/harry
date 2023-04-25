@@ -1,0 +1,16 @@
+1.Open SQL Server data tool--file--new--project--
+bussiness intelligence--analysis services multidimensional--ok
+2.on right hand side--right click on data source--new datasource--
+then datasource wizard will open on that delete existing one if any--
+give server name
+3.select database name--adventure works dw2012--test connection--
+ok--ok--next--inherit--next--finish
+4.data source view--right click on new source view--datasource
+wizard will open--next--next--then from available object--flat finance
+--[>]--include object--add
+5.cube--right click--new cube--wizard will open--next--tick all table--next
+--next--finish
+6.right click on project name--proporties--configuration proporties--
+deployment--options--processing option:do not process & server mode:
+deploy all--ok
+7.right click on project display
